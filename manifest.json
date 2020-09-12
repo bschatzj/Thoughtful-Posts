@@ -10,12 +10,13 @@
   "content_scripts": [
     {
       "matches": [
-        "https://brendanschatz.com/*"
+        "https://www.facebook.com/*"
       ],
       "js": [
-        "jquery-2.2.0.min.js",
-        "undead.js"
-      ]
+        "jquery-3.5.1.js",
+        "facebook.js"
+      ],
+      "run_at": "document_end"
     }
   ],
   "background": {
